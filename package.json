@@ -7,6 +7,8 @@
     "format": "prettier --write .",
     "lint-fix": "eslint --ignore-path .eslintignore . --fix",
     "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start":"node./dist/index.JS",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
